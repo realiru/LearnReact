@@ -1,13 +1,17 @@
-/* Surprise! You probably thought you could just forget
-the line of code you just learned! Nope, not on my watch!
-
-Try to write that 1-liner of React code again! This time,
-see if you can figure out how to render an <ul> with 2+ <li>s inside*/
-ReactDOM.render(
-    <ul>
-        <li>Thing 1</li>
-        <li>Thing 2</li>
-        <li>Thing 3</li>
-        </ul>,
-    document.getElementById("root")
+const page = (
+    <div>
+        <img src="./react-logo.png" width="40px" />
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
 )
+
+
+
+ReactDOM.render(page, document.getElementById("root"))
