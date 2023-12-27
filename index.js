@@ -1,17 +1,22 @@
-const page = (
-    <div>
-        <img src="./react-logo.png" width="40px" />
-        <h1>Fun facts about React</h1>
-        <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on GitHub</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
-    </div>
-)
+/**
+Challenge: 
 
+Part 1: Create a page of your own using a custom Page component
 
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
 
-ReactDOM.render(page, document.getElementById("root"))
+Render your list to the page
+
+ */
+
+function Page() {
+  return (
+  <ol>
+    <li>It will help my future</li>
+    <li>It's fun</li>
+    <li>I love learning</li>
+  </ol>)
+}
+
+ReactDOM.render(<Page />, document.getElementById("root"))
