@@ -1,3 +1,9 @@
+/**
+Mini Challenge:
+Move the `header` element from Page into 
+its own component called "Header"
+*/
+
 function Page() {
   return (
       <div>
