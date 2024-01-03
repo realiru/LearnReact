@@ -12,6 +12,11 @@ function Header() {
           <nav>
               <img src="./react-logo.png" width="40px" />
           </nav>
+            <ul>
+              <li>Pricing</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
       </header>
   )
 }
