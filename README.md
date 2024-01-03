@@ -2,4 +2,4 @@
 
 
 Learning to code using ReactJS by following course on Scrimba (https://scrimba.com/allcourses)
-Course 1 Lesson 20: Parent/Child Components
+Course 1 Lesson 21: Styling with classes
