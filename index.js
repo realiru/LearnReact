@@ -1,5 +1,9 @@
-
 import Header from "./Header"
+
+/**
+Challenge: move the Footer and MainContent components
+into their own files.
+*/
 
 function Footer() {
   return (
