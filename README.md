@@ -1,3 +1,3 @@
 Learning React via Scrimba
 
-****All content is placed within a child folder****
+****All content is placed within child folder Learn-React****
