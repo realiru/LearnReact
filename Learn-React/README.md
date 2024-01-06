@@ -2,4 +2,4 @@
 
 
 Learning to code using ReactJS by following course on Scrimba (https://scrimba.com/allcourses)
-Course 1 Lesson 22: Organizing Components
+Course 1 Lesson 24: Project Setup
