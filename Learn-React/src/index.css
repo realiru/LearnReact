@@ -58,7 +58,7 @@ main {
   color: white;
   background-image: url(assets/react-big.svg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 75%;
 
 }
 
