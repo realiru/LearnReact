@@ -2,4 +2,4 @@
 
 
 Learning to code using ReactJS by following course on Scrimba (https://scrimba.com/allcourses)
-Course 1 Lesson 27: Color the bullets
+Course 1 Lesson 28: Add background logo
