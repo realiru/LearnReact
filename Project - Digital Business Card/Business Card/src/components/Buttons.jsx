@@ -6,10 +6,10 @@ export default function Buttons() {
     return (
         <div className="buttons">
             <button className="buttons--email">
-                <p><img src={Mail}/>Test</p>
+                <img src={Mail}/><p>Email</p>
                 </button>
             <button className="buttons--linkedin">
-                <p> <img src={Linkedin}/>Test</p>
+                <img src={Linkedin}/><p>LinkedIn</p>
                 </button>
             </div>
     )
