@@ -98,44 +98,37 @@ body {
 
 }
 
-.buttons--email{
-/* Layout */
+.buttons>button{
   display: flex;
   width: 115px;
+  height: 34px;
   padding: 9px 13px 9px 11px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 8px;  
-/* Style */
+  gap: 8px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  
+}
+
+
+.buttons--email{
+  color: #374151;
   border-radius: 6px;
-  border: 1px solid (#D1D5DB);
   background: #FFF;
-  background-image: url(assets/Mail.svg);
-  background-repeat: no-repeat;
-  background-position: center left 26px;
 
   /* shadow/sm */
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
-.buttons--email>h1{
-color:#374151;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px; /* 114.286% */
-}
+
 
 .buttons--linkedin{
-/* Layout */
-  display: flex;
-  width: 115px;
-  padding: 9px 13px 9px 11px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-/*Style*/
+  color: #FFF;
   border-radius: 6px;
   background: #5093E2;
 
