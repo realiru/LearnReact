@@ -1,5 +1,8 @@
 import Photo from './assets/photo.png';
 import PersonalInfo from './components/PersonalInfo';
+import Buttons from './components/Buttons';
+
+
 function App() {
   return(
     <div className="container">
@@ -7,6 +10,7 @@ function App() {
     <img src={Photo} className="self-photo"/> 
     <div className="text--container">
     <PersonalInfo />
+    <Buttons />
     </div>
     </div>
   )

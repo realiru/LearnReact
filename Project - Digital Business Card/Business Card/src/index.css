@@ -32,7 +32,15 @@ body {
   align-items: center;
   background: #1A1B21;
 }
-.personalinfo>h1{
+
+.personalinfo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0;
+  }
+
+.personalinfo--name{
   color: #FFF;
   text-align: center;
   font-family: Inter;
@@ -40,5 +48,97 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 21px 0px 0px 0px ;
 
 }
+.personalinfo--title{
+  margin: 6px 0px 0px 0px;
+  color: #F3BF99;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.personalinfo--website{
+  margin: 9px 0px 0px 0px;
+  color: #F5F5F5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
+.personalinfo--website:link {
+  text-decoration: none;
+  color:#FFF;
+}
+
+.personalinfo--website:visited {
+  text-decoration: none;
+}
+
+.personalinfo--website:hover {
+  text-decoration: underline;
+}
+
+.personalinfo--website:active {
+  text-decoration: underline;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 15px 35px 0px 35px;
+  justify-content: space-between;
+  gap:17px
+
+}
+
+.buttons--email{
+/* Layout */
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;  
+/* Style */
+  border-radius: 6px;
+  border: 1px solid (#D1D5DB);
+  background: #FFF;
+  background-image: url(assets/Mail.svg);
+  background-repeat: no-repeat;
+  background-position: center left 26px;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.buttons--email>h1{
+color:#374151;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 114.286% */
+}
+
+.buttons--linkedin{
+/* Layout */
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+/*Style*/
+  border-radius: 6px;
+  background: #5093E2;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  }
