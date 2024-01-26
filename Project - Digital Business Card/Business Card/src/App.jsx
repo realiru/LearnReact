@@ -2,6 +2,7 @@ import Photo from './assets/photo.png';
 import PersonalInfo from './components/PersonalInfo';
 import Buttons from './components/Buttons';
 import Body from './components/BodyText';
+import Socials from './components/SocialsFooter';
 
 function App() {
   return(
@@ -12,7 +13,7 @@ function App() {
     <PersonalInfo />
     <Buttons />
     <Body />
-
+    <Socials />
     </div>
     </div>
   )
