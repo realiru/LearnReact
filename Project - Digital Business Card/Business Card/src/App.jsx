@@ -1,7 +1,7 @@
 import Photo from './assets/photo.png';
 import PersonalInfo from './components/PersonalInfo';
 import Buttons from './components/Buttons';
-
+import Body from './components/BodyText';
 
 function App() {
   return(
@@ -11,6 +11,8 @@ function App() {
     <div className="text--container">
     <PersonalInfo />
     <Buttons />
+    <Body />
+
     </div>
     </div>
   )
