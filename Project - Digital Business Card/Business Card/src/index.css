@@ -106,6 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  border: none;
 
   font-family: Inter;
   font-size: 14px;
@@ -114,12 +115,15 @@ body {
   line-height: 16px; /* 114.286% */
 }
 
+.buttons>button:active{
+  opacity: 0.9;
+}
+
 button>img{
   width: 16px;
   height: 16px;
 }
 .buttons--email{
-  justify-content: top;
   color: #374151;
   border-radius: 6px;
   background: #FFF;
