@@ -6,12 +6,12 @@ import InstaIcon from "../assets/Instagram Icon.png";
 export default function SocialsFooter() {
     return (
         <div className="socials">
-            <a href="https://github.com/realiru" className="socials--giticon">
-                <img src={GitIcon} alt="github logo"/>
+            <a href="https://github.com/realiru" className="icon">
+                <img src={GitIcon} alt="github logo" />
             </a>
 
-            <a href="https://github.com/realiru" className="socials--instaicon">
-                <img src={InstaIcon} alt="Instagram logo"/>
+            <a href="https://github.com/realiru" className="icon">
+                <img src={InstaIcon} alt="Instagram logo" />
             </a>
         </div>
     )

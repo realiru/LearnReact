@@ -3,11 +3,12 @@
 }
 
 body {
-  background-color:#23252C;;
+  background-color: #23252C;
+  ;
 }
 
 /* App */
-.container{
+.container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -19,13 +20,17 @@ body {
   align-items: center;
   /* justify-content: center; */
 
+  margin-top: 50px;
+
 }
-.self-photo{
+
+.self-photo {
   width: 317px;
   height: 317px;
   border-radius: 10px 10px 0px 0px;
 }
-.text--container{
+
+.text--container {
   display: flex;
   width: 317px;
   height: 399px;
@@ -34,15 +39,16 @@ body {
   align-items: center;
   background: #1A1B21;
 }
+
 /* Personal Info */
-.personalinfo{
+.personalinfo {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   margin: 0;
-  }
+}
 
-.personalinfo--name{
+.personalinfo>.name {
   color: #FFF;
   text-align: center;
   font-family: Inter;
@@ -50,10 +56,11 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: 21px 0px 0px 0px ;
+  margin: 21px 0px 0px 0px;
 
 }
-.personalinfo--title{
+
+.personalinfo>.title {
   margin: 6px 0px 0px 0px;
   color: #F3BF99;
   text-align: center;
@@ -63,7 +70,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.personalinfo--website{
+
+.personalinfo>.website {
   margin: 9px 0px 0px 0px;
   color: #F5F5F5;
   text-align: center;
@@ -71,35 +79,38 @@ body {
   font-size: 10.24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 15.36px */
-}
-.personalinfo--website:link {
-  text-decoration: none;
-  color:#FFF;
+  line-height: 150%;
+  /* 15.36px */
 }
 
-.personalinfo--website:visited {
+.personalinfo>.website:link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.personalinfo>.website:visited {
   text-decoration: none;
 }
 
-.personalinfo--website:hover {
+.personalinfo>.website:hover {
   text-decoration: underline;
 }
 
 .personalinfo--website:active {
   text-decoration: underline;
 }
+
 /* Buttons */
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 15px 35px 0px 35px;
   justify-content: space-between;
-  gap:17px
+  gap: 17px
 }
 
-.buttons>button{
+.buttons>button {
   display: flex;
   width: 115px;
   height: 34px;
@@ -113,18 +124,24 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 114.286% */
+  line-height: 16px;
+  /* 114.286% */
 }
 
-.buttons>button:active{
+.buttons>button:active {
   opacity: 0.9;
 }
 
-button>img{
+.buttons>button:hover {
+  opacity: 0.9;
+}
+
+button>img {
   width: 16px;
   height: 16px;
 }
-.buttons--email{
+
+.buttons--email {
   color: #374151;
   border-radius: 6px;
   background: #FFF;
@@ -137,48 +154,50 @@ button>img{
   width: 36px;
   height: 16px;
 } */
-.buttons--linkedin{
+.buttons--linkedin {
   color: #FFF;
   border-radius: 6px;
   background: #5093E2;
 
   /* shadow/sm */
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-  }
+}
 
 /* Body Text */
-.bodytext{
+.bodytext {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   margin: 0px 35px 0px 35px;
-  }
+}
 
-.bodytext>h1{
+.bodytext>h1 {
   color: #F5F5F5;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
+  /* 24px */
 
   margin: 30px 0px 0px 0px;
-  }
+}
 
-.bodytext>p{
+.bodytext>p {
   color: #DCDCDC;
   font-family: Inter;
   font-size: 10.24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 15.36px */
+  line-height: 150%;
+  /* 15.36px */
 
-margin: 5px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
 
 /* SocialsFooter */
 
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -190,4 +209,8 @@ margin: 5px 0px 0px 0px;
   background: #161619;
   position: absolute;
   bottom: 0;
+}
+
+.socials>.icon:hover {
+  opacity: 0.9;
 }
