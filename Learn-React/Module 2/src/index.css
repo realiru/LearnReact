@@ -4,8 +4,11 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+
 }
 
+/* Navbar */
 nav{
   display: flex;
   background-color: white;
@@ -16,4 +19,24 @@ nav{
   width: 82.02px;
   height: 25.352px;
   margin: 22px 0 22px 30px;
+}
+
+/* Hero */
+.hero{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.photo-grid{
+  max-width: 395.906px;
+  align-self: center;
+}
+
+.hero-header{
+  margin-bottom: 16px;
+}
+
+.hero-text{
+  margin-top: 0;
 }
