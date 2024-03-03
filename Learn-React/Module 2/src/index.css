@@ -8,6 +8,11 @@ body {
 
 }
 
+h2{
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
 .gray{
   color: #91839B;
 }
@@ -51,7 +56,7 @@ nav{
 
 /* Card */
 .card{
-  font-size: 12px;
+  font-size: 0.75rem;
   width: 175px;
 }
 
